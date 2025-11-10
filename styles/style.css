@@ -10,7 +10,7 @@ body {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 83px 48px 95px 51px;
+    padding: 92px 50px 97px;
 }
 
 .header__links-list {
@@ -18,15 +18,17 @@ body {
     gap: 33px;
     padding: 0;
     margin: 0;
+    gap: 
 }
 
 .header__links-list-item {
-    list-style: circle; 
+    list-style: circle;
 }
 
 .header__link {
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;  
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 4px; 
+    
 }
 
 .header__link_active {
@@ -48,7 +50,7 @@ body {
     justify-self: end;
     flex-direction: column;
     align-items: flex-start;
-    line-height: 1.3;
+    line-height: 1.35;
 
 }
 
@@ -62,7 +64,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 160px 19px 48px 51px;
+    padding: 156px 50px 48px;
 }
 
 .overlay {
@@ -81,8 +83,9 @@ body {
     font-weight: 700;
     font-size: 100px;
     letter-spacing: 0.3em;
+    margin-right: -0.3em;
     color: white;
-    line-height: 1.34;
+    line-height: 1.35;
 }
 
 .aligned-text {
@@ -107,7 +110,7 @@ body {
     font-size: 22px;
     text-transform: uppercase;
     color: white;
-    gap: 109px;
+    gap: 107px;
 }
 
 /* Растянутый текст */
@@ -127,7 +130,7 @@ body {
 }
 
 .lots {
-    padding: 182px 23px 156px 25px;
+    padding: 181px 24px 155px 24px;
 } 
 
 .lots__heading {
@@ -163,7 +166,7 @@ body {
     flex-direction: column; 
     justify-content: space-between; 
     height: 100%; 
-    padding: 50px 40px; 
+    padding: 48px 40px; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -187,6 +190,8 @@ body {
     font-size: 22px;
     font-weight: 700;
     text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
     color: white;
     align-self: start;
     z-index: 1;
@@ -197,25 +202,25 @@ body {
     z-index: 1;
     font-size: 20px; 
     color: white;
+    line-height: 1.2;
 }
 
 .lots__look-more-link {
     font-size: 20px;
-    text-decoration: none;
-    border-bottom: 1px solid currentColor; 
     margin-left: 40px;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 5px;
 }
 
 .about {
-    padding: 0 20px;
-    margin-bottom: 120px;
+    padding: 0 24px;
 }
 
 .about__column {
     display: grid;
     grid-template-columns: 1fr 2fr;
     place-items: center center;
-    gap: 15px;
+    gap: 13px;
 
 }
 
@@ -227,6 +232,7 @@ body {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    margin-left: -12px;
 
 }
 
@@ -246,19 +252,19 @@ body {
 .about__text {
     display: flex;
     flex-direction: column;
-    gap: 25px;
     grid-column: 2 / 3;
     font-size: 20px;  
     justify-self: start;
     align-self: start;
-    margin-top: -7px;
-    line-height: 1.2
+    margin-top: -29px;
+    line-height: 1.2;
+    white-space: pre-line;
 }
 
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 59px 49px 80px 51px; 
+    padding: 182px 50px 80px; 
 }
 
 .footer .address {
@@ -299,7 +305,7 @@ body {
 .footer__social-list {
     justify-self: end;
     display: flex;
-    gap: 47px;
+    gap: 49px;
     list-style: none;
 }
 
