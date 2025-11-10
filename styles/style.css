@@ -26,7 +26,7 @@ body {
 
 .header__link {
     text-decoration-thickness: 1.5px;
-    text-underline-offset: 4px;  
+    text-underline-offset: 4px;
 }
 
 .header__link_active {
@@ -131,7 +131,7 @@ body {
 .lots__heading {
     font-weight: 700;
     font-size: 40px;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     padding-left: 40px;
     margin-bottom: 27px;
 }
